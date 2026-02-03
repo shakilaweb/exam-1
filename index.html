@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>fNav</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg">
+  <div class="container-fluid">
+
+    <!-- Logo -->
+    <a class="navbar-brand d-flex align-items-center" href="#">
+      <div class="logo-circle">fN</div>
+      fNav
+    </a>
+
+    <!-- Toggle button -->
+    <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Menu -->
+    <div class="collapse navbar-collapse justify-content-end" id="mainNav">
+      <ul class="navbar-nav align-items-lg-center">
+        <li class="nav-item"><a class="nav-link active" href="./index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="./about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">portfolio</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Service</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+        
+      </ul>
+    </div>
+
+  </div>
+</nav>   <!--end navbar -->
+
+<!-- Banner Slider Section -->
+<section class="banner-slider">
+  <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+    <!-- Indicators -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2"></button>
+    </div>
+
+    <!-- Slides -->
+    <div class="carousel-inner">
+
+      <!-- Slide 1 -->
+      <div class="carousel-item active">
+        <img src="https://picsum.photos/1920/800?random=1" class="d-block w-100" alt="">
+        <div class="carousel-caption">
+          <h1>Build Modern Websites</h1>
+          <p>Responsive design using Bootstrap 5</p>
+          <a href="#" class="btn btn-primary">Get Started</a>
+        </div>
+      </div>
+
+      <!-- Slide 2 -->
+      <div class="carousel-item">
+        <img src="https://picsum.photos/1920/800?random=2" class="d-block w-100" alt="">
+        <div class="carousel-caption">
+          <h1>Creative UI Design</h1>
+          <p>Clean, fast and professional</p>
+          <a href="#" class="btn btn-outline-light">View Portfolio</a>
+        </div>
+      </div>
+
+      <!-- Slide 3 -->
+      <div class="carousel-item">
+        <img src="https://picsum.photos/1920/800?random=3" class="d-block w-100" alt="">
+        <div class="carousel-caption">
+          <h1>Grow Your Business</h1>
+          <p>We build solutions that convert</p>
+          <a href="#" class="btn btn-success">Contact Us</a>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Controls -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+
+  </div>
+</section>
+
+
+<!-- Home page section  -->
+
+<section class="mt-5">
+    <div class="text-center mb-5">
+         <h1 class="about">About me </h1>
+    </div>
+    <div class="container">
+         <div class="row mb-4 ">
+             <div class="col-6 image">
+                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFeWqvdVQtdfZe-iw16tRl1SkjsnY4ebExqw&s" alt="" >
+             </div>
+             <div class="col-6">
+                 <p class="text-white pera">Hello! I’m lav, a passionate Frontend Developer and a 4th-semester student in the Computer Science department at TMSS Engineering College and Institute. My programming journey began with HTML and CSS, which quickly led me to discover my love for JavaScript and React.js. Since then, I have expanded my skills to include Tailwind CSS, Bootstrap Node.js, Git & GitHub, and I am currently learning TypeScript. I truly enjoy creating fast, responsive, and visually appealing web applications that provide seamless user experiences. </p>
+             </div>
+         </div>
+    </div>
+</section>
+
+
+
+<!-- carrier mission section  -->
+<section class="career-section carrrier-contentent">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8 text-center">
+                
+                <div class="career-card shadow-lg ">
+                    <i class="bi bi-briefcase-fill career-icon mb-3"></i>
+                    <h2 class="mb-3 mission">Career Mission</h2>
+                    <p class="lead">
+                        My mission is to build a successful career in software development
+                        by continuously improving my technical skills, embracing new
+                        technologies, and creating meaningful digital solutions that
+                        make a positive impact.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>  <!--end-->
+
+
+
+
+  <!-- Services Section -->
+<section class="container service">
+
+    <div class="service-heading">
+         <h1>Service section</h1>
+    </div>
+  <section class="card__container">
+    <div class="card__bx" style="--clr: #89ec5b">
+      <div class="card__data">
+        <div class="card__icon">
+          <i class="fa-solid fa-paintbrush"></i>
+        </div>
+        <div class="card__content">
+          <h3>Designing</h3>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+          <a href="#">Read More</a>
+        </div>
+      </div>
+    </div>
+    <div class="card__bx" style="--clr: #eb5ae5">
+      <div class="card__data">
+        <div class="card__icon">
+          <i class="fa-solid fa-code"></i>
+        </div>
+        <div class="card__content">
+          <h3>Develoment</h3>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+          <a href="#">Read More</a>
+        </div>
+      </div>
+    </div>
+    <div class="card__bx" style="--clr: #5b98eb">
+      <div class="card__data">
+        <div class="card__icon">
+          <i class="fa-brands fa-searchengin"></i>
+        </div>
+        <div class="card__content">
+          <h3>SEO</h3>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+          <a href="#">Read More</a>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+</section>
+
+<div class="client-hading">
+         <h3>Testimonials</h3>
+         <h1>What Clients Say</h1>
+         <p>Don't just take my word for it - hear from the amazing people I've had the pleasure to work <br>with.</p>
+      </div>  <!--end-->
+
+      <!-- main -->
+     <section class="client-container">
+         <div class="client-row"> 
+
+             <!-- response comment card -->
+              <div class="star-icon">
+                  <div class="start-i">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+
+                  </div>
+                  <div class="cycle-icon">
+                      <i class="fa-solid fa-recycle"></i>
+                  </div>
+              </div>  <!---->
+
+                     <p>"Naim delivered an exceptional Shopify store that exceeded our expectations. The attention to detail and performance optimization was outstanding."</p>
+                 <div class="profesion-name">
+                     <div class="image">
+                        <img src="https://previews.123rf.com/images/dotshock/dotshock1903/dotshock190300016/118962281-portrait-of-young-indian-successful-male-software-developer-sitting-on-desk-at-modern-startup-office.jpg" alt="">
+                     </div>
+                     <div class="nickName">
+
+                         <h2>Sarah Johnson</h2>
+                         <p>CEO, TechStart</p>
+                     </div>
+                 </div>
+                 
+
+           
+
+         </div>
+         <div class="client-row"> 
+
+             <!-- response comment card -->
+              <div class="star-icon">
+                  <div class="start-i">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+
+                  </div>
+                  <div class="cycle-icon">
+                      <i class="fa-solid fa-recycle"></i>
+                  </div>
+              </div>  <!---->
+
+                     <p>"Naim delivered an exceptional Shopify store that exceeded our expectations. The attention to detail and performance optimization was outstanding."</p>
+                 <div class="profesion-name">
+                     <div class="image">
+                        <img src="https://previews.123rf.com/images/dotshock/dotshock1903/dotshock190300016/118962281-portrait-of-young-indian-successful-male-software-developer-sitting-on-desk-at-modern-startup-office.jpg" alt="">
+                     </div>
+                     <div class="cycle-icon">
+
+                         <h2>Sarah Johnson</h2>
+                         <h3>CEO, TechStart</h3>
+                     </div>
+                 </div>
+                 
+
+           
+
+         </div>
+         <div class="client-row"> 
+
+             <!-- response comment card -->
+              <div class="star-icon">
+                  <div class="start-i">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+
+                  </div>
+                  <div class="cycle-icon">
+                      <i class="fa-solid fa-recycle"></i>
+                  </div>
+              </div>  <!---->
+
+                     <p>"Naim delivered an exceptional Shopify store that exceeded our expectations. The attention to detail and performance optimization was outstanding."</p>
+                 <div class="profesion-name">
+                     <div class="image">
+                        <img src="https://previews.123rf.com/images/dotshock/dotshock1903/dotshock190300016/118962281-portrait-of-young-indian-successful-male-software-developer-sitting-on-desk-at-modern-startup-office.jpg" alt="">
+                     </div>
+                     <div>
+
+                         <h2>Sarah Johnson</h2>
+                         <h3>CEO, TechStart</h3>
+                     </div>
+                 </div>
+                 
+
+           
+
+         </div>
+     </section>   <!--end client response section-->
+
+
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
