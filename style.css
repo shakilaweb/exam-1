@@ -5,6 +5,7 @@
 }
  body {
       background-color: #0b0f1a;
+      color: white;
     }
 
     .navbar {
@@ -657,3 +658,149 @@ footer {
     height: 20px;
   }
 }
+
+/* skill section */
+
+.skills {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 70px);
+     margin-bottom: 40px;
+    margin-top:10%;
+  }
+ .skl{
+   
+     color: yellow;
+     text-align: center;
+     
+     width: 40%;
+     margin-left: 80%;
+    font-size: 50px;
+    margin-top: -30px;
+   
+ }
+.sklLine{
+    position: relative;
+    bottom: 8px;
+    visibility: hidden;
+    padding-left: 6px;
+    color: greenyellow;
+}
+  .ProgWidth {
+    padding: 0px 20px;
+  }
+  .skillDiv {
+    height: 5px;
+    width: 100%;
+    background-color: gray;
+  }
+  .skillBar {
+    display: block;
+    height: 5px;
+    background-color: rgb(26, 204, 19);
+  }
+  .p {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .htmlBar {
+    width: 70%;
+    animation: html 3s 1s 5 forwards;
+  }
+  .cssBar {
+    width: 70%;
+    animation: css 3s 1s 5 forwards;
+  }
+  .jsBar {
+    width: 75%;
+    animation: js 3s 1s 5 forwards;
+  }
+  
+  .javaBar {
+    width: 85%;
+    animation: java 3s 1s 5 forwards;
+  }
+  .ccpBar {
+    width: 80%;
+    animation: ccp 3s 1s 5 forwards;
+  }
+  .reactBar {
+    width: 10%;
+    animation: react 3s 1s 5 forwards;
+  }
+  .nodeBar {
+    width: 35%;
+    animation: node 3s 1s 5 forwards;
+  }
+  .sqlBar {
+    width: 85%;
+    animation: sql 3s 1s 5 forwards;
+  }
+  
+  @keyframes html {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 95%;
+    }
+  }
+  @keyframes css {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 70%;
+    }
+  }
+  @keyframes js {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 75%;
+    }
+  }
+  @keyframes java {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 85%;
+    }
+  }
+  @keyframes ccp {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 80%;
+    }
+  }
+  @keyframes react {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 70%;
+    }
+  }
+  @keyframes node {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 35%;
+    }
+  }
+
+  @keyframes sql {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 85%;
+    }
+  }
